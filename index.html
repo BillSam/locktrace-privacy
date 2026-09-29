@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LockTrace — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; --fg:#161b22; --muted:#5b6673; --bg:#ffffff; --accent:#1f5fd0; }
+  @media (prefers-color-scheme: dark){ :root{ --fg:#e6eaf0; --muted:#9aa6b4; --bg:#0e1117; --accent:#7fb2ff; } }
+  body{ font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; color:var(--fg); background:var(--bg); max-width:720px; margin:0 auto; padding:32px 20px; }
+  h1{ font-size:1.7rem; margin:0 0 4px; } h2{ font-size:1.15rem; margin:1.8em 0 .4em; }
+  .date{ color:var(--muted); margin-bottom:1.5em; } a{ color:var(--accent); }
+  ul{ padding-left:1.2em; } code{ background:rgba(127,127,127,.15); padding:1px 5px; border-radius:4px; }
+</style>
+</head>
+<body>
+<h1>LockTrace — Privacy Policy</h1>
+<div class="date">Last updated: 29 September 2026</div>
+
+<p>LockTrace is an anti-theft tool that helps you, the owner of a device, see who used your
+phone while you were away. This policy is short because the app is built so that your data
+never leaves your device.</p>
+
+<h2>The short version</h2>
+<ul>
+  <li>LockTrace does <strong>not</strong> collect, transmit, or share any personal data.</li>
+  <li>The app has <strong>no internet permission</strong> and makes no network connections.</li>
+  <li>Everything it records stays on your device and is deleted when you uninstall the app.</li>
+</ul>
+
+<h2>What the app records, and where it stays</h2>
+<p>To do its job, LockTrace stores the following <strong>only in the app's private storage on
+your device</strong>:</p>
+<ul>
+  <li><strong>Photos</strong> taken by the front camera when someone enters the wrong PIN, or
+  unlocks shortly after a failed attempt. These are encrypted with a key held in the device's
+  hardware keystore, which never leaves the device.</li>
+  <li><strong>Lock, unlock and failed-attempt events</strong>, with their times.</li>
+  <li><strong>The names of apps opened</strong> during a monitored session (via Usage Access).</li>
+  <li><strong>Your settings</strong>, such as which apps you mark as sensitive.</li>
+</ul>
+<p>None of this is sent anywhere. There is no account, no sign-in, and no analytics or
+advertising code in the app.</p>
+
+<h2>Permissions and why they are needed</h2>
+<ul>
+  <li><strong>Camera</strong> — to photograph whoever fails to unlock your phone.</li>
+  <li><strong>Device admin (watch-login only)</strong> — solely to be told when a wrong PIN is
+  entered. It cannot lock, wipe, or control your device.</li>
+  <li><strong>Usage Access</strong> — to list which apps were opened during a session.</li>
+  <li><strong>Display over other apps</strong> — so the camera screen can open over the lock screen.</li>
+  <li><strong>Notifications</strong> — to run the monitoring service and to alert you.</li>
+  <li><strong>Run at startup / ignore battery optimisation</strong> — so monitoring keeps working.</li>
+</ul>
+
+<h2>Your control over your data</h2>
+<ul>
+  <li>You can delete all evidence at any time from within the app, and set how long photos and
+  history are kept.</li>
+  <li>Uninstalling LockTrace permanently deletes everything it has recorded.</li>
+</ul>
+
+<h2>Intended use</h2>
+<p>LockTrace is intended for monitoring a device that you own. It always displays its app icon
+and an ongoing notification while running, and offers no way to hide itself.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:s.nganga@irembo.com">s.nganga@irembo.com</a></p>
+</body>
+</html>
